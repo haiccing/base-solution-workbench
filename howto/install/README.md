@@ -14,24 +14,9 @@ itself initialised and started.
 
 ## Steps
 
-```sh
-# the boot mrepo, the root of the install
-haicc boot/deploy
-# the workbench: deployed, commissioned: its components, then itself in service
-haicc . boot/deploy workbench haiccing/base-solution-workbench
-# what the workbench deployed: its links, docs and splectral
-haicc workbench crud/read "*"
-# Splectral in service: its server's address; its help view at /help/, the docs mrepo's pages
-haicc workbench/splectral splectral/status
-# where the docs mrepo is, from the registry
-haicc . haicc/mrepos local/docs
-# the documentation
-haicc workbench/docs info/get
-# the howtos namespace, in the workbench
-haicc workbench crud/read howtos
-# torn down: its decommission first, its components with it
-haicc . boot/teardown workbench
-```
+The boot mrepo is put in place first, `haicc boot/deploy`, at the machine (`base-component-boot`, the how-to `boot`); the rest is a run.
+
+The script, [steps.haicc](steps.haicc): each line as typed after `haicc`, what it answers under it; run with `howto/run`, shown here at info extraction.
 
 ## Notes
 

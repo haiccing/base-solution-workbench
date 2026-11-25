@@ -1,8 +1,8 @@
 {
   "package": "haiccing/base-solution-workbench",
-  "content": "f7a4049d11155bffeb4ab9f6c3c07f50da1bbe5de2884441b4bdc0418551d9ee",
+  "content": "78a534b015183dac790745fa49f38029ab4bf30bca1fba19804574b4144cb636",
   "bare": "v1.36.0",
-  "date": "2026-11-25T04:28:34.661Z",
+  "date": "2026-11-25T09:06:32.941Z",
   "set": "full",
   "ok": true,
   "units": [
@@ -114,12 +114,12 @@
       "unit": "/test/modules/pear-full-square/mrepo-base-info",
       "ok": true,
       "tests": {
-        "passed": 10,
-        "total": 10
+        "passed": 11,
+        "total": 11
       },
       "asserts": {
-        "passed": 86,
-        "total": 86
+        "passed": 92,
+        "total": 92
       },
       "failures": []
     },
@@ -140,12 +140,12 @@
       "unit": "/test/modules/pear-full-square/mrepo-base-request",
       "ok": true,
       "tests": {
-        "passed": 21,
-        "total": 21
+        "passed": 22,
+        "total": 22
       },
       "asserts": {
-        "passed": 261,
-        "total": 261
+        "passed": 263,
+        "total": 263
       },
       "failures": []
     },
@@ -326,8 +326,8 @@
         "total": 26
       },
       "asserts": {
-        "passed": 89,
-        "total": 89
+        "passed": 90,
+        "total": 90
       },
       "failures": []
     }
